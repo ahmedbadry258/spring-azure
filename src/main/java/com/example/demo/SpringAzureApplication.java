@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAzureApplication {
 	@GetMapping("/msg")
 	public String getMessage(){
-		return "Welcome TO SpringBoot Azure Application ";
+		return "Welcome TO SpringBoot Azure Application  in Azure Platform";
 	}
 
 	public static void main(String[] args) {
